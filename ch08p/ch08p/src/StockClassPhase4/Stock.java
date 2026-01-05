@@ -1,4 +1,4 @@
-package StockClassPhase3;
+package StockClassPhase4;
 
 public class Stock
 {
@@ -9,6 +9,12 @@ public class Stock
     {
         symbol = sym;
         sharePrice = price;
+    }
+
+    public Stock(Stock object2)
+    {
+        symbol = object2.symbol;
+        sharePrice = object2.sharePrice;
     }
 
     public String getSymbol()
@@ -23,8 +29,9 @@ public class Stock
 
     public String toString()
     {
-        String str = "Trading Symbol: " + symbol
-                + " Share Price: " + sharePrice;
+        String str = "Trading Symbol: " + symbol +
+                "\nShare Price: " + sharePrice;
+
         return str;
     }
 
@@ -32,11 +39,11 @@ public class Stock
     {
         boolean status;
 
-        if(symbol.equals(object2.symbol) &&
+        if (symbol.equals(object2.symbol) &&
         sharePrice == object2.sharePrice)
             status = true;
-        else
-            status = false;
+        else status = false;
+
         return status;
     }
 
@@ -45,5 +52,4 @@ public class Stock
         Stock copyObject = new Stock(symbol, sharePrice);
         return copyObject;
     }
-
 }

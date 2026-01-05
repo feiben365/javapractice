@@ -1,4 +1,17 @@
 package StockClassPhase2;
 
-public class BadStockCompare {
+public class BadStockCompare
+{
+
+    public static void main(String[] args) {
+        Stock company1 = new Stock("xyz", 9.62);
+        Stock company2 = new Stock("xyz", 9.62);
+
+        if (company1 == company2)
+            System.out.println("Both objects are the same.");
+         else
+            System.out.println("The objects are different.");
+
+
+    }
 }
