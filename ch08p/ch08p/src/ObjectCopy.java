@@ -1,3 +1,5 @@
+/*
+
 public class ObjectCopy
 {
     public static void main(String[] args)
@@ -26,3 +28,4 @@ public class ObjectCopy
         }
     }
 }
+*/

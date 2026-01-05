@@ -1,3 +1,4 @@
+/*
 public class StockCompare
 {
 
@@ -15,3 +16,4 @@ public class StockCompare
     }
 
 }
+*/
