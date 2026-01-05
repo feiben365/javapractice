@@ -20,4 +20,10 @@ public class Stock
     {
         return sharePrice;
     }
+
+    public String toString()
+    {String str = "Trading symbol: " + symbol +
+            "\nShare price: " + sharePrice;
+
+    return str;}
 }
