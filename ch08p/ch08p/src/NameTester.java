@@ -1,4 +1,4 @@
-public class nameTester
+public class NameTester
 {
     public static void main(String[] args)
     {
@@ -9,5 +9,5 @@ public class nameTester
         len = name.getLength();
     }
 
-  
+
 }
