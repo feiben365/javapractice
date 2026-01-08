@@ -42,7 +42,7 @@ public class FullName
         if (middleName != null)
             len +=middleName.length();
 
-        return len;ß
+        return len;
 
 
     }
