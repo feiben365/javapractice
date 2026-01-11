@@ -28,7 +28,7 @@ public class Course
 
     public String toString()
     {
-        String str="Course name: " + courseName +
+        String str = "Course name: " + courseName +
                 "\nInstructor Information:\n" + instructor
                 + "\nTextBook:\n" + textBook;
         return str;
