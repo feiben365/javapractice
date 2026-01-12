@@ -1,2 +1,6 @@
-public class SportsCar {
+public class SportsCar
+{
+    private CarType make;
+    private CarColor color;
+
 }

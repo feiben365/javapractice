@@ -1,3 +1,3 @@
 
-    enum CarColor {RED, BLACK, BLUE, SILVER}
+enum CarColor {RED, BLACK, BLUE, SILVER}
 
