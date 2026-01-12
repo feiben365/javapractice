@@ -33,7 +33,7 @@ public class Course
         String str = "Course name: " + courseName +
                 "\nInstructor Information:\n" + instructor
                 + "\nTextBook:\n" + textBook;
-        
+
         return str;
     }
 }
