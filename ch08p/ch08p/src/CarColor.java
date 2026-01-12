@@ -1,2 +1,3 @@
-public class CarColor {
-}
+
+    enum CarColor {RED, BLACK, BLUE, SILVER}
+
