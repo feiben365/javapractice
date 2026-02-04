@@ -1,4 +1,4 @@
-package CourseP1;
+package CourseP8;
 
 public class Instructor
 {
@@ -6,7 +6,7 @@ public class Instructor
     private String firstName;
     private String officeNumber;
 
-    public Instructor(String lname, String fname, String office)
+    public  Instructor(String lname, String fname, String office)
     {
         lastName = lname;
         firstName = fname;
@@ -27,9 +27,8 @@ public class Instructor
         officeNumber = office;
     }
 
-    public String toString()
-    {
-        String str = "Last name: " + lastName +
+    public String toString(){
+        String str =  "Last name: " + lastName +
                 "\nFirst name: " + firstName
                 + "\nOffice number: " + officeNumber;
         return str;
